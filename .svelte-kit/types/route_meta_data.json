@@ -1,0 +1,14 @@
+{
+	"/": [],
+	"/blog-sobre-ruedas": [],
+	"/blog/[slug]": [],
+	"/contacto": [],
+	"/experiencias": [],
+	"/experiencia/[slug]": [],
+	"/explorar": [],
+	"/login": [],
+	"/preguntas-frecuentes": [],
+	"/que-es-van-camp": [],
+	"/register": [],
+	"/vehiculo/[id]": []
+}

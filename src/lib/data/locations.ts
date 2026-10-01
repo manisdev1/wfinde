@@ -1,0 +1,17 @@
+import type { LocationItem } from '../types';
+
+export const locations: LocationItem[] = [
+  { name: 'Álava', slug: 'alava' },
+  { name: 'Alicante - Torrevieja', slug: 'alicante-torrevieja' },
+  { name: 'Barcelona', slug: 'barcelona' },
+  { name: 'Cáceres', slug: 'caceres' },
+  { name: 'Cantabria', slug: 'cantabria' },
+  { name: 'Castellón', slug: 'castellon' },
+  { name: 'Girona - Camallera', slug: 'girona-camallera' },
+  { name: 'Girona - Viladamat', slug: 'girona-viladamat' },
+  { name: 'Granada', slug: 'granada' },
+  { name: 'Lleida', slug: 'lleida' },
+  { name: 'Madrid', slug: 'madrid' },
+  { name: 'Pontevedra - Tui', slug: 'pontevedra-tui' },
+  { name: 'Zaragoza', slug: 'zaragoza' }
+];

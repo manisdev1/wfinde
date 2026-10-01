@@ -1,0 +1,100 @@
+const blogPosts = [
+  {
+    id: "1",
+    title: "Alquilar autocaravanas en España con carnet B: todo lo que debes saber",
+    slug: "alquilar-autocaravanas-en-espana-con-carnet-b-todo-lo-que-debes-saber",
+    date: "07 Sep, 2026",
+    author: "Van & Camp",
+    coverImage: "https://vanandcamp.com/assets/uploads/blog/post_1788800004_portada-autocaravanas-horizontal-_1__11zon.webp",
+    summary: "¿Es posible conducir cualquier autocaravana con el carnet de coche tradicional? Repasamos los límites de MMA (3.500 kg), normativa de velocidad y consejos de conducción segura.",
+    readTime: "5 min de lectura",
+    contentHtml: `
+      <p class="lead">¿Sabías que la inmensa mayoría de autocaravanas y furgonetas camper del mercado se pueden conducir legalmente con el carnet de conducir tipo B estándar?</p>
+      <h2>El límite clave: los 3.500 kg de MMA</h2>
+      <p>El Reglamento General de Conductores en España y la Unión Europea estipula que con el permiso de la clase B se pueden conducir vehículos cuya Masa Máxima Autorizada (MMA) no supere los 3.500 kg, diseñados para el transporte de no más de 8 pasajeros además del conductor.</p>
+      <p>Todas las campers (tanto gran volumen como medianas) y la gran mayoría de autocaravanas perfiladas y capuchinas de alquiler de nuestra flota cumplen escrupulosamente con este límite.</p>
+      <h2>Diferencia entre estacionar y acampar</h2>
+      <p>Uno de los temas más consultados por los principiantes es la diferencia legal según la Instrucción 08/V-74 y la actualización PROT 2023/14 de la DGT:</p>
+      <ul>
+        <li><strong>Estacionar:</strong> Mientras el vehículo esté correctamente aparcado, sin sobrepasar el perímetro exterior (sin toldos, mesas ni ventanas batientes abiertas) y sin verter fluidos, puedes comer y dormir en su interior con total legalidad.</li>
+        <li><strong>Acampar:</strong> Sacar elementos al exterior o pernoctar fuera de zonas habilitadas cuando la ordenanza municipal lo tipifique como acampada libre.</li>
+      </ul>
+      <h2>Límites de velocidad en carretera</h2>
+      <p>Las autocaravanas y campers clasificadas como turismo o vehículo vivienda tienen fijado un límite de 120 km/h en autopistas y autovías (100 km/h o 90 km/h según clasificación técnica en ficha reducida). Recuerda conducir con suavidad y anticiparte al viento lateral.</p>
+    `
+  },
+  {
+    id: "2",
+    title: "Mantenimiento básico de una autocaravana o camper: la guía definitiva para viajar sin preocupaciones",
+    slug: "mantenimiento-camper",
+    date: "06 Aug, 2026",
+    author: "Van & Camp",
+    coverImage: "https://vanandcamp.com/assets/uploads/blog/post_1786036212_van-and-camp-mantenimiento-blog (3)_11zon.jpg",
+    summary: "Aprende a gestionar las aguas limpias, grises y negras, la batería auxiliar, el gas y la presión de neumáticos para una experiencia 100% autónoma y tranquila.",
+    readTime: "7 min de lectura",
+    contentHtml: `
+      <p class="lead">Viajar en autocaravana te ofrece una libertad inigualable, pero requiere conocer los aspectos básicos de gestión de recursos a bordo.</p>
+      <h2>Gestión de aguas: limpias, grises y negras</h2>
+      <p>La autonomía de agua potable suele ser de entre 100 y 120 litros. Te recomendamos rellenar agua siempre que pases por un área de autocaravanas y vaciar el depósito de aguas grises (ducha y fregadero) y el cassette de WC químico (aguas negras) exclusivamente en los puntos autorizados con rejilla y grifo de enjuague.</p>
+      <h2>Baterías y autonomía eléctrica</h2>
+      <p>Nuestras autocaravanas cuentan con placas solares y baterías secundarias que alimentan la nevera, las luces LED, las tomas USB y la bomba de agua. Al circular, el alternador del motor recarga la batería del habitáculo de forma automática.</p>
+    `
+  },
+  {
+    id: "3",
+    title: "7 razones por las que viajar en camper no tiene edad",
+    slug: "7-razones-por-las-que-viajar-en-camper-no-tiene-edad",
+    date: "28 Jul, 2026",
+    author: "Van & Camp",
+    coverImage: "https://vanandcamp.com/assets/uploads/blog/post_1785268666_van-and-camp-camper-blog-_2__11zon.webp",
+    summary: "Desde parejas jóvenes hasta jubilados aventureros y familias con niños: por qué el caravaning se adapta a cualquier etapa vital con el máximo confort.",
+    readTime: "4 min de lectura",
+    contentHtml: `
+      <p class="lead">Existe el falso estereotipo de que el viaje en camper es exclusivo de mochileros veinteañeros. Nada más lejos de la realidad.</p>
+      <p>Hoy en día, las comodidades de los vehículos modernos (camas viscoelásticas, calefacción silenciosa por conductos, duchas con agua caliente instantánea y cocinas equipadas) permiten a personas de cualquier edad disfrutar de amaneceres frente al mar y noches estrelladas en plena naturaleza.</p>
+    `
+  },
+  {
+    id: "4",
+    title: "Checklist Camper. Guía completa de 15 consejos esenciales para una aventura sin imprevistos",
+    slug: "checklist-camper-guia-viaje",
+    date: "02 Jul, 2026",
+    author: "Van & Camp",
+    coverImage: "https://vanandcamp.com/assets/uploads/blog/post_1783177144_checklist-camper-blog-_1__11zon.jpg",
+    summary: "La lista de comprobación definitiva antes de arrancar el motor: cierres de seguridad, calzos, manguera con adaptadores, cable eléctrico y apps imprescindibles.",
+    readTime: "6 min de lectura",
+    contentHtml: `
+      <p class="lead">Antes de poner primera y salir a la carretera, revisa estos 15 puntos clave para viajar con total tranquilidad.</p>
+      <ul>
+        <li>1. Cerrar todos los armarios y cajones con su pestillo de bloqueo.</li>
+        <li>2. Comprobar que las claraboyas y ventanas exteriores están bajadas y aseguradas.</li>
+        <li>3. Cerrar la llave de paso de la bombona de gas antes de circular.</li>
+        <li>4. Retirar los calzos de nivelación y el cable de conexión exterior 220V.</li>
+        <li>5. Asegurar la nevera en modo automático o 12V para trayectos.</li>
+      </ul>
+    `
+  },
+  {
+    id: "5",
+    title: "El boom oculto del caravaning: la verdad que desmonta el mito del turismo barato",
+    slug: "el-boom-del-caravaning-la-verdad-sobre-el-turismo-premium",
+    date: "30 Jun, 2026",
+    author: "Van & Camp",
+    coverImage: "https://vanandcamp.com/assets/uploads/blog/post_1783176028_boom-caravaning-blog_11zon (2).webp",
+    summary: "El caravaning ha evolucionado hacia un turismo experiencial y de calidad donde se prima la exclusividad, la cercanía con la naturaleza y el tiempo de calidad.",
+    readTime: "5 min de lectura"
+  },
+  {
+    id: "6",
+    title: "Guía Completa para Alquilar una Autocaravana en España: Todo lo que Necesitas Saber 2026",
+    slug: "guia-completa-para-alquilar-una-autocaravana-en-espana-todo-lo-que-necesitas-saber-2026",
+    date: "28 Apr, 2026",
+    author: "Van & Camp",
+    coverImage: "https://vanandcamp.com/assets/uploads/blog/post_1777376613_guia-alquiler-espana-vanlife_11zon.webp",
+    summary: "Precios medios, temporadas altas y bajas, coberturas de seguro recomendadas y consejos para elegir entre camper, perfilada, capuchina o integral.",
+    readTime: "8 min de lectura"
+  }
+];
+export {
+  blogPosts as b
+};
